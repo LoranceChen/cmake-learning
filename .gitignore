@@ -13,6 +13,16 @@ TutorialConfig.h
 *.a
 *.cmake
 cmake-build-debug
+*.cbp
 
 # executor
 cmake_learning
+
+# cpack
+_CPack_Packages
+## use `!` to exclude needed `.sh` file
+*.sh
+*.gz
+*.tar.Z
+*.tar.bz2
+*.tar.xz
